@@ -1,0 +1,25 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400x;   
+    height: 300px;
+    color: aqua;
+    align-content: flex-start;
+    }
+body {
+    
+    background-color: gray;
+}
+img {
+    outline: 1px solid black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:600px) {
+    img {
+        height: 50px;
+    }
+}
